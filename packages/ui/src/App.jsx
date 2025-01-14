@@ -2,7 +2,7 @@
 import './App.css'
 
 function App() {
-  return <div>test 1</div>
+  return <div>Welcome</div>
 }
 
 export default App
