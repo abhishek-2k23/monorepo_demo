@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pnpm -parallel --filter ui --filter app start",
+    "test": "pnpm --filter ui test",
+    "coverage": "pnpm --filter ui coverage"
   },
   "keywords": [],
   "author": "",
