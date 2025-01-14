@@ -2,13 +2,13 @@ name: test
 
 on:
   workflow_dispatch:
-  push: 
-    branches: 
+  push:
+    branches:
       - main
 
 jobs:
   test:
-    name: run tests
+    name: Run Tests
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -21,10 +21,10 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Test ui and app
-        run: pnpm  test
+      - name: Test UI and App
+        run: pnpm test
 
-      - name: Get coverage report
+      - name: Get Coverage Report
         run: pnpm coverage
