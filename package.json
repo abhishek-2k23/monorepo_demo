@@ -7,7 +7,7 @@
     "test": "pnpm --filter ui test",
     "coverage": "pnpm --filter ui coverage",
     "lint": "pnpm --filter ui lint",
-    "format": "pnpm --filter ui format"
+    "format": "pnpm --filter ui format && pnpm --filter app format"
   },
   "keywords": [],
   "author": "",

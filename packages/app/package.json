@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon src/index.js",
-    "format": "prettier . --write"
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
