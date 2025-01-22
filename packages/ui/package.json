@@ -9,7 +9,9 @@
     "test": "vitest run --bail=3",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint --fix .",
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
